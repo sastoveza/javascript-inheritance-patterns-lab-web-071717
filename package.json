@@ -7,9 +7,7 @@
     "npm": "5.x"
   },
   "main": "index.js",
-  "scripts": {
-    "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/learn-co-curriculum/java-script-inheritance-patterns-lab.git"
@@ -24,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/learn-co-curriculum/java-script-inheritance-patterns-lab/issues"
   },
-  "homepage": "https://github.com/learn-co-curriculum/java-script-inheritance-patterns-lab#readme",
+  "homepage": "https://github.com/learn-co-curriculum/java-script-inheritance-patterns-lab",
   "devDependencies": {
     "expect": "^1.20.2",
     "mocha": "^3.4.2"

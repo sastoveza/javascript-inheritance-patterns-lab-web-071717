@@ -1,15 +1,16 @@
 describe('JavaScript Inheritance Patterns', function() {
   describe('Point', function() {
-    it('exists', function() {
-      expect(Point).toExist()
-      var p = new Point(1,1)
-      expect(p).toBeA(Point)
-    })
+    // it('exists')
     it('defines a toString on the prototype', function() {
       expect(Point.prototype.toString).toExist()
       var p = new Point(2,3)
       expect(p.toString()).toMatch(/2,\s?3/)
     })
+    // it('defines a toString on the prototype', function() {
+    //   expect(Point.prototype.toString).toExist()
+    //   var p = new Point(2,3)
+    //   expect(p.toString()).toMatch(/2,\s?4/)
+    // })
   })
 
   describe('Side', function() {
